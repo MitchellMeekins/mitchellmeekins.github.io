@@ -3798,4 +3798,19 @@ input, select, textarea {
 			}
 
 		}
+
+		@media screen and (max-width: 736px) {
+			.statistics {
+				display: block; /* Stack the items vertically */
+			}
 		
+			.statistics li {
+				width: 100%; /* Make each item take the full width */
+				margin-bottom: 10px; /* Add some space between items */
+			}
+		
+			.statistics img {
+				width: 80px; /* Adjust the size of the images */
+				height: 80px; /* Adjust the size of the images */
+			}
+		}
